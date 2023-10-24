@@ -5,6 +5,8 @@
         padding-right: 15px;
     }
 
+    /**======HEADER=============================*/
+
     .header-logo {
         margin-right: 76px;
     }
@@ -19,6 +21,8 @@
         line-height: 1.5;
     }
 
+    /**=======Solutions=========================*/
+
     .solutions {
         padding: 188px 0;
     }
@@ -26,6 +30,8 @@
     .main-solutions-title {
         margin-bottom: 48px;
     }
+
+    /**==========FEATURES=======================!*/
 
     .features {
         padding: 120px 0;
@@ -58,7 +64,62 @@
         font-weight: 400;
     }
 
+    /**=======TEAM============================*/
     .team {
         padding: 120px 0;
+    }
+
+    /**===PORTFOLIO========================*/
+
+    .portfolio {
+        padding: 120px 0;
+    }
+
+    .portfolio-list {
+        gap: 48px 24px;
+    }
+
+    .portfolio-list-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .portfolio-list-item:hover,
+    .portfolio-list-item:focus {
+        border: 1px solid var(--CLOUD, #f4f4fd);
+        background: var(--WHITE, #fff);
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+            0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+            0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    }
+
+    .portfolio-list-item:hover .portfoio-image-text {
+        display: flex;
+        transform: translateY(0);
+    }
+
+    .portfoio-image-wrap {
+        position: relative;
+        overflow: hidden;
+    }
+
+    /**===FOOTER=============================*/
+    .footer {
+        padding: 100px 0;
+    }
+
+    .container-footer {
+        justify-content: space-between;
+    }
+
+    .footer-logo-text {
+        margin: 0 120px 0 0;
+    }
+
+    .soc-net {
+        margin-right: 80px;
+    }
+
+    .footer-form-label {
+        margin-right: 24px;
     }
 }

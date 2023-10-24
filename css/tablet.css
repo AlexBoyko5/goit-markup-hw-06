@@ -1,9 +1,12 @@
 @media screen and (min-width: 768px) {
+
     .container {
         max-width: 768px;
         padding-left: 16px;
         padding-right: 16px;
     }
+
+    /**===HEADER=============================*/
 
     .header-logo {
         margin-right: 120px;
@@ -22,10 +25,8 @@
         color: inherit;
         display: block;
         font-size: 16px;
-
         font-weight: 500;
         line-height: 1.5;
-
         letter-spacing: 0.02em;
         color: var(--SLATE, #434455);
         padding: 24px 0;
@@ -67,10 +68,7 @@
     .header-address-link {
         color: var(--NAVY-BLUE, #2E2F42);
         font-size: 12px;
-
         line-height: 1.17;
-
-
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -78,6 +76,8 @@
     .header-address-link:focus {
         color: #404bbf;
     }
+
+    /**===Solutions=========================*/
 
     .solutions {
         padding: 112px 0;
@@ -87,7 +87,6 @@
     }
 
     .main-solutions-title {
-
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
@@ -95,23 +94,73 @@
         margin-bottom: 36px;
     }
 
+    /**===FEATURES=======================!*/
     .features-list {
         gap: 72px 24px;
     }
 
     .features-subtitle {
         text-align: left;
-
         letter-spacing: 0.02em;
-
     }
 
+    /**===TEAM============================*/
     .team-list {
-
         flex-direction: row;
         flex-wrap: wrap;
-
         gap: 64px 24px;
     }
 
+    /**===PORTFOLIO========================*/
+    .portfolio-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .portfolio-list-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    /**===FOOTER=============================*/
+
+    .container-footer {
+        justify-content: flex-start;
+        align-items: baseline;
+        padding-left: 108px;
+    }
+
+    .footer-logo {
+        margin: 0;
+    }
+
+    .footer-logo-text {
+        display: block;
+        margin-right: 24px;
+    }
+
+    .footer-text {
+        max-width: 264px;
+        margin-top: 16px;
+    }
+
+    .soc-net {
+        display: block;
+        padding: 0;
+    }
+
+    /**===FOOTER-FORM==============================*/
+
+    .footer-subs {
+        display: block;
+    }
+
+    .footer-form {
+        flex-direction: row;
+    }
+
+    .footer-form-label {
+        margin-right: 24px;
+        padding-bottom: 0;
+    }
 }
