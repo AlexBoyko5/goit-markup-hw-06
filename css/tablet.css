@@ -77,6 +77,10 @@
         color: #404bbf;
     }
 
+    .mob-menu {
+        display: none;
+    }
+
     /**===Solutions=========================*/
 
     .solutions {
@@ -95,14 +99,22 @@
     }
 
     /**===FEATURES=======================!*/
+
     .features-list {
+        display: flex;
+        flex-wrap: wrap;
         gap: 72px 24px;
+    }
+
+    .features-list-item {
+        width: calc((100% - 24px) / 2);
     }
 
     .features-subtitle {
         text-align: left;
         letter-spacing: 0.02em;
     }
+
 
     /**===TEAM============================*/
     .team-list {
