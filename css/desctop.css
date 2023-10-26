@@ -29,6 +29,9 @@
 
     .solutions {
         padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/FullScr/people-office\ 2x.jpg);
     }
 
     .main-solutions-title {
