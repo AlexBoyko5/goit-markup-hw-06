@@ -31,7 +31,16 @@
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/FullScr/people-office\ 2x.jpg);
+            url(../images/FullScr/people-office-1x.jpg);
+    }
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .solutions {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/FullScr/people-office-2x.jpg);
+        }
     }
 
     .main-solutions-title {
@@ -129,4 +138,5 @@
     .footer-form-label {
         margin-right: 24px;
     }
+
 }

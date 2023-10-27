@@ -87,8 +87,18 @@
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Tab/people-office\ 1x.jpg);
+            url(../images/Tab/people-office-1x.jpg);
     }
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .solutions {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/Tab/people-office-2x.jpg);
+        }
+    }
+
 
     .main-solutions-title {
         font-size: 56px;
@@ -175,4 +185,11 @@
         margin-right: 24px;
         padding-bottom: 0;
     }
+
+    .modal {
+        width: 408px;
+        height: 584px;
+        padding: 72px 24px 24px 24px;
+    }
+
 }
