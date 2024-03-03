@@ -105,7 +105,7 @@ body {
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-and-adr {}
+
 
 .mob-menu-list {
     display: inline-flex;
@@ -818,9 +818,9 @@ body {
     color: #8e8f99;
 }
 
-.span-privacy {}
 
-.user-privacy {}
+
+
 
 .visually-hidden {
     position: absolute;
@@ -856,7 +856,7 @@ body {
     fill: #f4f4fd;
 }
 
-.privacy-icon {}
+
 
 .link-privacy {
     /* display: block; */
